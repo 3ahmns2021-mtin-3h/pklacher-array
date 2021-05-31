@@ -46,6 +46,8 @@ public class Arrays : MonoBehaviour
         Debug.Log("Letztes Element von array 3 hat den Wert: " + array3[array3.Length - 1]);
         Debug.Log("Letztes Element von array 4 hat den Wert: " + array4[array4.Length - 1]);
 
+        Debug.Log("Letztes Element von array 3 hat den Wert: " + array3[0] + array3[array3.Length - 1] + array4[0] + array4[array4.Length - 1]);
+
         Debug.Log("Name des ersten GameObjects: " + arrayColoredImagesRed[arrayColoredImagesRed.Length - 1].name);
     }
 
