@@ -10,6 +10,7 @@ public class Arrays : MonoBehaviour
     public int[] array3 = { 31, 32, 33, 34, 35, 36, 37 };
     public string[] array4 = new string[10];
 
+
     //"HÜ"
     public int[] array32 = new int[] { 31, 32, 33, 34, 35, 36, 37 };
 
@@ -17,7 +18,7 @@ public class Arrays : MonoBehaviour
     void Start()
     {
         PrintElements(array4);
-
+        PrintOneLiner(array2);
 
         for (int i = 0; i < array4.Length; i++)
         {
@@ -57,15 +58,32 @@ public class Arrays : MonoBehaviour
 
     }
 
+    public void PrintElements(int[] x)
+    {
+        for (int i = 0; i < x.Length; i++)
+        {
+            Debug.Log("Element Nummer[" + i + "] = " + x[i]);
+        }
+
+    }
+
     public void PrintElements(string[] x)
     {
         for (int i = 0; i < x.Length; i++)
         {
-            Debug.Log("Element Nummer: " + i + " hat den Wert " + x[i]);
+            Debug.Log("Element Nummer[" + i + "] = " + x[i]);
         }
 
     }
-    
 
+    void PrintOneLiner(int[] x)
+    {
+        string tmp = "";
+        for (int i = 0; i < x.Length; i++)
+        {
+            tmp += x[i] + " ";
+            Debug.Log(tmp);
+        }
+    }
 
 }
