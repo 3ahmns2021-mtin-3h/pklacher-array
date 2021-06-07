@@ -1,28 +1,32 @@
-# Template2D-Unity202015f1
+# arrays - pklacher
 
 ### Project description: 
-Introduction/Project summary 
+An exercise to repeat what we've learned about arrays. 
 
 ### Development platform: 
-(OS, Unity Version, Visual Studio Version, used SDKs)
+Windows 10, Unity 2020.1.5f1, Visual Studio 2019
 
 ### Target platform: 
-WebGL, Mobile, VR Device incl. reference resolution 
+WebGL, reference resolution 960x600
 
 ### Visuals: 
 Screenshots (concept and experience), Video
 
 ### Necessary setup/execution steps: 
-Installation process, e.g. step by step instructions that I can run the project after cloning it
+none
 
 ### Third party material: 
-(if used Fonts, Sounds, Music, Graphics, Materials, Code etc.)
+none
 
 ### Project state: 
-incl. progress in percent
+in class exercise, lesson finished
 
 ### Limitations: 
 
 ### Lessons Learned: 
+<ul>
+  <li>Arrays Werte zuweisen</li>
+  <li>Arrays mit Hilfe von for-Schleifen durcharbeiten</li>
+</ul>  
 
-Copyright by you :)
+Copyright by Pia
